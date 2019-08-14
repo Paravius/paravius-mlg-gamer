@@ -1,0 +1,198 @@
+﻿body {
+background: url("city.jpg") no-repeat center center fixed;
+background-size: cover;
+}
+
+header
+.navigation {
+list-style-type: none;
+background-color: transparent;
+position: sticky;
+}
+
+.navigation li {
+float: center
+}
+
+.navigation li a {
+display: inline-block;
+padding: 10px;
+text-decoration: none;
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-size: 20px;
+text-align: center;
+}
+
+/* unvisited link */
+.navigation li a:link {
+color: red;
+}
+
+/* visited link */
+.navigation li a:visited {
+color: green;
+}
+
+/* mouse over link */
+.navigation li a:hover {
+color: hotpink;
+}
+
+/* selected link */
+.navigation li a:active {
+color: blue;
+}
+
+.profile_pic {
+height: 100px;
+filter: opacity (50%);
+padding: 0px 20px;
+}
+
+img {
+border-radius: 50%;
+float: right;
+}
+
+.upou {
+position: sticky;
+height: 50px;
+filter: opacity (50%);
+float: right;
+padding: 40px;
+margin-left: 10px;
+text-align: left;
+}
+
+#education {
+color: white;
+font-family: "Helvetica";
+text-align: left;
+}
+
+sub {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	line-height: 5px;
+	padding-left: 50px
+}
+
+p {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: white;
+  	font-weight: bold;
+	padding-left: 60px
+}
+
+h1 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: white;
+  	font-weight: bold;
+  	font-size: 70px;
+  	text-align: justify;
+	margin-top: 250px;
+	padding-left: 50px
+}
+
+h2 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: white;
+  	font-weight: bold;
+  	font-size: 50px;
+  	text-align: left;
+	margin-top: 250px;
+	padding-left: 50px
+}
+
+h3 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: white;
+  	font-weight: lighter;
+  	font-size: 30px;
+  	text-align: left;
+	margin-top: 0;
+	padding-left: 50px
+}
+
+h4 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: white;
+	font-size: 40px;
+	text-align: left;
+	margin-top: 0;
+	padding-left: 50px
+}
+
+h5 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 0;
+	padding: 0px 50px 0px 50px;
+	
+}
+
+h6 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: white;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 0;
+	padding: 20px;
+}
+
+table, th, td {
+  	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	border: 2px double white;
+  	border-collapse: collapse;
+	color: white;
+	background-color: black
+}
+
+.intro {
+   	margin-left: 50px;
+   	font-weight: strong;
+   	padding-left: 50px
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: white;
+	text-align: left;
+	margin: 0px 20px;
+	padding-left: 50px
+}
+
+#name {
+    position: sticky;
+    padding-left: 50px
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+#portfolio {
+    position: sticky;
+    padding: 20px;
+    margin: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px double #FFFDD0;
+    font-family: "Helvetica";
+}
+
+#copyright {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight: bold;
+	padding: 10px;
+}
+
+
+
+
